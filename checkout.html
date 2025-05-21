@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Checkout - Toko Star</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html" class="active">Checkout</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Checkout</h2>
+            <form id="checkout-form">
+                <label for="fullname">Nama Lengkap:</label>
+                <input type="text" id="fullname" required />
+
+                <label for="address">Alamat Pengiriman:</label>
+                <textarea id="address" required></textarea>
+
+                <label for="phone">No. Telepon:</label>
+                <input type="tel" id="phone" required />
+
+                <button type="submit">Bayar Sekarang</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Online Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="marsya.js"></script>
+</body>
+
+</html>
